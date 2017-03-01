@@ -1,0 +1,43 @@
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+	background-color: #294377;
+	margin-top: 20px;
+}
+
+
+.navbar-inverse {
+    background-color: #1d3056;
+    border-color: #294377;
+}
+
+#app {
+margin-top: 60px;
+}
+
+/*html, body {
+	height: 100%;
+}*/
+/*.row-fluid{
+	overflow: visible;
+     white-space: nowrap;
+}*/
+
+/*.row-fluid .single-panel {
+	float: none;
+	display: inline-flex;
+}
+*/
+/*.panel-container {
+	display: flex;
+	overflow-x: auto;
+	align-items: flex-start;
+	flex-align: start;
+	flex-direction: row;
+}
+
+.single-panel {
+	width: 260px;
+	display: inline-flex;
+	float: none;
+}*/

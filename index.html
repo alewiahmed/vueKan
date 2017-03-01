@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>vueKan</title>
+</head>
+<body>
+  <div  id="app">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VueKan</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <form class="navbar-form">
+            <button type="button" class="btn btn-primary glyphicon glyphicon-plus pull-left" @click="createPanel">
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>    
+    <div class="container">
+     <div class="row">
+       <board></board>
+     </div>
+   </div>
+ </div>
+ <script src="/dist/build.js"></script>
+</body>
+</html>

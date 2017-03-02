@@ -17,7 +17,7 @@
 							<template v-if="isPanel">
 								<label for="panel" class="control-label">{{modalText}}</label>
 								<input class="form-control" id="panelInput" v-model="input" @keydown.enter.prevent.stop="modalSaved">
-							<template>
+							</template>
 						</div>
 					</form>
 				</div>
